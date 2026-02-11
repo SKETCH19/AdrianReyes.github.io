@@ -458,6 +458,77 @@ p {
   border-color: #353535;
 }
 
+.contact-section {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #353535;
+}
+
+.contact-header {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding: 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
+
+.contact-icon {
+  width: 16px;
+  height: 16px;
+  color: #a8a8a8;
+  flex-shrink: 0;
+}
+
+.contact-link {
+  color: #a8a8a8;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.2s;
+  word-break: break-all;
+}
+
+.contact-link:hover {
+  color: #fff;
+}
+
+.linkedin-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 10px 16px;
+  background-color: #0077b5;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+  border: 1px solid #0077b5;
+}
+
+.linkedin-button:hover {
+  background-color: #006299;
+  border-color: #006299;
+  transform: translateY(-1px);
+}
+
+.linkedin-button svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
 .projects-container {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
