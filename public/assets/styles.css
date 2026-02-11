@@ -207,7 +207,7 @@ ul {
     left: 0;
     right: 0;
     top: 92px;
-    background: white;
+    background: #1c1c1c;
     transform: translateY(-50%);
     opacity: 0;
     transition: transform 250ms ease, opacity 250ms ease;
@@ -669,15 +669,25 @@ p {
   }
 
   .navbar-icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     color: #fff;
-    font-size: 32px;
+    display: block;
   }
 
   .navbar-icon-button {
     padding: 12px;
     transition: all 0.24s;
+    background-color: rgba(53, 53, 53, 0.3);
+    border-radius: 8px;
+  }
+
+  .navbar-icon-button:hover {
+    background-color: rgba(53, 53, 53, 0.5);
+  }
+
+  .navbar-icon-button:active {
+    background-color: rgba(53, 53, 53, 0.7);
   }
 }
 
